@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Žmonės{% endblock %}
+
+{% block content %}
+<h3>Žmonės:</h3>
+
+<ol>
+{% for vardas in vardai %}
+<li>{{vardas}}</li>
+{% endfor %}
+</ol>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Logika{% endblock %}
+
+{% block content %}
+<h3>Skaičiavimai:</h3>
+
+
+<ul>
+{% for x in skaiciai %}
+<li>{{x}}</li>
+{% endfor %}
+</ul>
+{% endblock %}
